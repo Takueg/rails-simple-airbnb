@@ -1,0 +1,15 @@
+.flats {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flat {
+  width: 400px;
+  height: 180px;
+  margin: 16px;
+  .card-footer {
+    p {
+      margin: 0;
+    }
+  }
+}
